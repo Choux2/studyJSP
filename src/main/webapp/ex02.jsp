@@ -13,7 +13,7 @@
 <body>
 <h2>JSP 기본 문법 예제</h2>
 <%
-    //Scriptlet: 자바코드를 작성할 수 있는 영역(연산, 처리 기능 정의)
+    //Scriptlet: 자바코드를 작성할 수 있는 영역(연산, 처리 기능 정의) / EL(Expression languge)
     String str = "스크립틀릿 입니다.";
     String comment = "주석";
 %>
