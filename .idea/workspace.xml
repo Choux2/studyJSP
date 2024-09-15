@@ -9,42 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0c6f32-a320-4178-9039-44d12a8f9eee" name="Changes" comment="jsp">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/BoardDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/board/BoardVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/JdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex03.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_10-1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_10-2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_10-3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_2-request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_3-result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_4-result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_5.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_6-loginForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_6-result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_7.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_8.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/ex04_9.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ec0c6f32-a320-4178-9039-44d12a8f9eee" name="Changes" comment="jsp 게시판 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ex02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ex02.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.0.93.executor": "Debug",
+    "Tomcat Server.loginAction.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -115,6 +86,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Bootstrap" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.93" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.93" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -228,7 +204,8 @@
       <workItem from="1725952192756" duration="13250000" />
       <workItem from="1726037622668" duration="2823000" />
       <workItem from="1726040466167" duration="64000" />
-      <workItem from="1726040543544" duration="4174000" />
+      <workItem from="1726040543544" duration="5833000" />
+      <workItem from="1726063635448" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="jsp">
       <option name="closed" value="true" />
@@ -238,7 +215,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725035440830</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jsp">
+      <option name="closed" value="true" />
+      <created>1726049209534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726049209534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jsp 게시판 만들기">
+      <option name="closed" value="true" />
+      <created>1726049246757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726049246757</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +242,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp" />
+    <MESSAGE value="jsp 게시판 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp 게시판 만들기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -262,7 +256,7 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp</url>
           <line>16</line>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

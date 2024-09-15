@@ -16,7 +16,7 @@ public class UserDao {
             String url = "jdbc:mysql://localhost:3306/board_db";
             String userName = "root";
             String password = "yerim486";
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(url, userName, password);
         } catch (Exception e) {
             e.printStackTrace();
@@ -24,7 +24,7 @@ public class UserDao {
     }
 
     public int login(String userID, String userPW) {
-        String SQL = "SELECT userPW FROM user WHERE userID = ?";
+        String SQL = "SELECT userPW FROM user WHERE userID";
         try {
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
