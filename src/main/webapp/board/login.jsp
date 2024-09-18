@@ -33,7 +33,7 @@
                 </div>
                 <br>
                 <div class="form-row">
-                    <input type="password" class="form-control" id="userPassword" name="userPassword"  placeholder="비 밀 번 호" maxlength="20">
+                    <input type="password" class="form-control" id="userPW" name="userPW"  placeholder="비 밀 번 호" maxlength="20">
                 </div>
                 <br>
                 <input type="submit" class="btn btn-info form-control" value="로 그 인">

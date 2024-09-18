@@ -24,7 +24,7 @@ public class UserDao {
     }
 
     public int login(String userID, String userPW) {
-        String SQL = "SELECT userPW FROM user WHERE userID";
+        String SQL = "SELECT userPW FROM user WHERE userID = ?";
         try {
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);

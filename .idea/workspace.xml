@@ -12,7 +12,7 @@
     <list default="true" id="ec0c6f32-a320-4178-9039-44d12a8f9eee" name="Changes" comment="jsp 게시판 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/board/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.93.executor": "Debug",
+    "Tomcat Server.Tomcat 9.0.93.executor": "Run",
     "Tomcat Server.loginAction.jsp.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -205,7 +205,7 @@
       <workItem from="1726037622668" duration="2823000" />
       <workItem from="1726040466167" duration="64000" />
       <workItem from="1726040543544" duration="5833000" />
-      <workItem from="1726063635448" duration="4485000" />
+      <workItem from="1726063635448" duration="6990000" />
     </task>
     <task id="LOCAL-00001" summary="jsp">
       <option name="closed" value="true" />
@@ -231,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726049246757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jsp 게시판 만들기">
+      <option name="closed" value="true" />
+      <created>1726412274207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726412274207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,11 +260,6 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/board/loginAction.jsp</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
