@@ -1,49 +1,49 @@
 package User;
 
 public class UserVo {
-    private String userID;
-    private String userPW;
-    private String userName;
-    private String userGender;
-    private String userEmail;
+    private String USER_ID;
+    private String USER_PW;
+    private String USER_NAME;
+    private String USER_GENDER;
+    private String USER_EMAIL;
 
-    public String getUserID() {
-        return userID;
+    public String getUSER_ID() {
+        return USER_ID;
     }
 
-    public void setUserID(String userID) {
-        this.userID = userID;
+    public void setUSER_ID(String USER_ID) {
+        this.USER_ID = USER_ID;
     }
 
-    public String getUserPW() {
-        return userPW;
+    public String getUSER_PW() {
+        return USER_PW;
     }
 
-    public void setUserPW(String userPW) {
-        this.userPW = userPW;
+    public void setUSER_PW(String USER_PW) {
+        this.USER_PW = USER_PW;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUSER_NAME() {
+        return USER_NAME;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUSER_NAME(String USER_NAME) {
+        this.USER_NAME = USER_NAME;
     }
 
-    public String getUserGender() {
-        return userGender;
+    public String getUSER_GENDER() {
+        return USER_GENDER;
     }
 
-    public void setUserGender(String userGender) {
-        this.userGender = userGender;
+    public void setUSER_GENDER(String USER_GENDER) {
+        this.USER_GENDER = USER_GENDER;
     }
 
-    public String getUserEmail() {
-        return userEmail;
+    public String getUSER_EMAIL() {
+        return USER_EMAIL;
     }
 
-    public void setUserEmail(String userEmail) {
-        this.userEmail = userEmail;
+    public void setUSER_EMAIL(String USER_EMAIL) {
+        this.USER_EMAIL = USER_EMAIL;
     }
 }

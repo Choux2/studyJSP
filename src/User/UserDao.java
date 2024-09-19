@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 public class UserDao {
 
     private Connection conn;
-    private PreparedStatement pstmt;
-    private ResultSet rs;
+    private PreparedStatement pstmt; //SQL문 실행준비단계
+    private ResultSet rs; //실행했을 때 나오는 결과
 
     public UserDao() {
         try {
@@ -23,14 +23,14 @@ public class UserDao {
         }
     }
 
-    public int login(String userID, String userPW) {
-        String SQL = "SELECT userPW FROM user WHERE userID = ?";
+    public int login(String USER_ID, String USER_PW) {
+        String SQL = "SELECT USER_PW FROM user WHERE USER_ID = ?";
         try {
             pstmt = conn.prepareStatement(SQL);
-            pstmt.setString(1, userID);
+            pstmt.setString(1, USER_ID);
             rs = pstmt.executeQuery();
             if(rs.next()) {
-                if(rs.getString(1).equals(userPW)) {
+                if(rs.getString(1).equals(USER_PW)) {
                    return 1; //로그인 성공
                 }
                 else
@@ -41,6 +41,21 @@ public class UserDao {
             e.printStackTrace();
         }
         return -2; //데이터베이스 오류
+    }
 
+    public int join(UserVo user) {
+        String SQL = "INSERT INTO user VALUES (?, ?, ?, ?, ?)";
+        try {
+            pstmt = conn.prepareStatement(SQL);
+            pstmt.setString(1, user.getUSER_ID());
+            pstmt.setString(2, user.getUSER_PW());
+            pstmt.setString(3, user.getUSER_NAME());
+            pstmt.setString(4, user.getUSER_GENDER());
+            pstmt.setString(5, user.getUSER_EMAIL());
+            return pstmt.executeUpdate();
+        }   catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1; //데이터베이스 오류
     }
 }
