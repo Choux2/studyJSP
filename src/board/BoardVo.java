@@ -1,83 +1,62 @@
 package board;
 
-import java.util.Date;
-
 public class BoardVo {
-    private int num;
-    private String title;
-    private String writer;
-    private String content;
-    private Date regdate;
-    private int cnt;
 
-    public BoardVo() {} //값 저장 용도
+    private int BOARD_NUM;
+    private String BOARD_TITLE;
+    private String USER_ID;
+    private String BOARD_DATE;
+    private String BOARD_CONTENT;
+    private int BOARD_AVAILABLE;
 
-    public BoardVo(int num, String title, String writer, String content, Date regdate, int cnt) {
-        this.num = num;
-        this.title = title;
-        this.writer = writer;
-        this.content = content;
-        this.regdate = regdate;
-        this.cnt = cnt;
+    public BoardVo() {
     }
 
-    public int getNum() {
-        return num;
+    public int getBOARD_NUM() {
+        return BOARD_NUM;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setBOARD_NUM(int BOARD_NUM) {
+        this.BOARD_NUM = BOARD_NUM;
     }
 
-    public String getTitle() {
-        return title;
+    public String getBOARD_TITLE() {
+        return BOARD_TITLE;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setBOARD_TITLE(String BOARD_TITLE) {
+        this.BOARD_TITLE = BOARD_TITLE;
     }
 
-    public String getWriter() {
-        return writer;
+    public String getUSER_ID() {
+        return USER_ID;
     }
 
-    public void setWriter(String writer) {
-        this.writer = writer;
+    public void setUSER_ID(String USER_ID) {
+        this.USER_ID = USER_ID;
     }
 
-    public String getContent() {
-        return content;
+    public String getBOARD_DATE() {
+        return BOARD_DATE;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setBOARD_DATE(String BOARD_DATE) {
+        this.BOARD_DATE = BOARD_DATE;
     }
 
-    public Date getRegdate() {
-        return regdate;
+    public String getBOARD_CONTENT() {
+        return BOARD_CONTENT;
     }
 
-    public void setRegdate(Date regdate) {
-        this.regdate = regdate;
+    public void setBOARD_CONTENT(String BOARD_CONTENT) {
+        this.BOARD_CONTENT = BOARD_CONTENT;
     }
 
-    public int getCnt() {
-        return cnt;
+    public int getBOARD_AVAILABLE() {
+        return BOARD_AVAILABLE;
     }
 
-    public void setCnt(int cnt) {
-        this.cnt = cnt;
-    }
-
-    @Override
-    public String toString() {
-        return "BoardVo{" +
-                "num=" + num +
-                ", title='" + title + '\'' +
-                ", writer='" + writer + '\'' +
-                ", content='" + content + '\'' +
-                ", regdate=" + regdate +
-                ", cnt=" + cnt +
-                '}';
+    public void setBOARD_AVAILABLE(int BOARD_AVAILABLE) {
+        this.BOARD_AVAILABLE = BOARD_AVAILABLE;
     }
 }
