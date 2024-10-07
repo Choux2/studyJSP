@@ -2,6 +2,7 @@
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="board.BoardVo" %>
 <%@ page import="board.BoardDao" %>
+<% request.setCharacterEncoding("UTF-8"); %>
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width-device-width", initial-scale="1">

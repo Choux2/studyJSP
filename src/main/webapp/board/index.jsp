@@ -4,7 +4,8 @@
     <title>메인 페이지</title>
 </head>
 <body>
-<h1>메인 Index</h1>
-<a href="#">게시판</a>
+    <script>
+        location.href = 'main.jsp';
+    </script>
 </body>
 </html>

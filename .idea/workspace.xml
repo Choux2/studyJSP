@@ -9,20 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0c6f32-a320-4178-9039-44d12a8f9eee" name="Changes" comment="jsp 로그인/회원가입">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/board.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/deleteAction.jsp" afterDir="false" />
+    <list default="true" id="ec0c6f32-a320-4178-9039-44d12a8f9eee" name="Changes" comment="jsp 게시판">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/board/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/updateAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/write.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/board/writeAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/board/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/BoardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/board/BoardVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/board/BoardVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/board/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/joinAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/updateAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/updateAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/board/writeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/board/writeAction.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,6 +234,8 @@
       <workItem from="1726738237683" duration="16028000" />
       <workItem from="1726809344057" duration="207000" />
       <workItem from="1726809574235" duration="220000" />
+      <workItem from="1726810008751" duration="6731000" />
+      <workItem from="1727081162146" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="jsp">
       <option name="closed" value="true" />
@@ -284,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726756832396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jsp 게시판">
+      <option name="closed" value="true" />
+      <created>1726810049920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726810049920</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,18 +306,8 @@
     <MESSAGE value="jsp" />
     <MESSAGE value="jsp 게시판 만들기" />
     <MESSAGE value="jsp 로그인/회원가입" />
-    <option name="LAST_COMMIT_MESSAGE" value="jsp 로그인/회원가입" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/board/db_conn.jsp</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="jsp 게시판" />
+    <option name="LAST_COMMIT_MESSAGE" value="jsp 게시판" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

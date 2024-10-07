@@ -1,7 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="board.BoardVo" %>
 <%@ page import="board.BoardDao" %>
+
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width-device-width", initial-scale="1">

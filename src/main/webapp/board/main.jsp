@@ -1,11 +1,10 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.PrintWriter" %>
-<% request.setCharacterEncoding("UTF-8"); %>
 <!DOCTYPE html>
 <head>
     <meta name="viewport" content="width-device-width", initial-scale="1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>글쓰기</title>
+    <title>로그인 페이지</title>
 </head>
 <body>
     <%
@@ -43,27 +42,5 @@
             }
         %>
     </nav>
-    <div class="container">
-        <div class="row">
-            <form method="post" action="writeAction.jsp">
-                <table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
-                    <thead> <!-- 테이블의 맨 윗부분(제목부분) -->
-                    <tr> <!-- 테이블 한 행 -->
-                        <th colspan="2" style="background-color: #eeeeee; text-align: center;">글쓰기</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><input type="text" class="form-control" placeholder="글 제목" name="BOARD_TITLE" maxlength="50"></td>
-                        </tr>
-                        <tr>
-                            <td><textarea class="form-control" placeholder="글 내용" name="BOARD_CONTENT" maxlength="2048" style="height: 350px;"></textarea></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <input type="submit" href="write.jsp" class="btn btn-primary pull right" value="글쓰기">
-            </form>
-        </div>
-    </div>
 </body>
 </html>

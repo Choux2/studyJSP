@@ -4,7 +4,7 @@
 <%
     Connection con = null;
 
-    String url = "jdbc:mysql://localhost:3306/board_db";
+    String url = "jdbc:mysql://localhost:3306/board_db?characterEncoding=UTF-8";
     String userName = "root";
     String password = "yerim486";
 

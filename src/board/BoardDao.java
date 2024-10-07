@@ -11,7 +11,7 @@ public class BoardDao {
     // db 접속
     public BoardDao() {
         try {
-            String url = "jdbc:mysql://localhost:3306/board_db";
+            String url = "jdbc:mysql://localhost:3306/board_db?characterEncoding=Euckr";
             String userName = "root";
             String password = "yerim486";
             Class.forName("com.mysql.cj.jdbc.Driver");

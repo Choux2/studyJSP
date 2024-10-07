@@ -1,7 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <%@ page import="board.BoardDao" %>
 <%@ page import="java.io.PrintWriter" %>
-<% //request.setCharacterEncoing("UTF-8"); %>
+<% request.setCharacterEncoding("UTF-8"); %>
 <jsp:useBean id="board" class="board.BoardVo" scope="page" />
 <jsp:setProperty name="board" property="BOARD_TITLE" />
 <jsp:setProperty name="board" property="BOARD_CONTENT" />
